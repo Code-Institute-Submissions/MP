@@ -43,8 +43,22 @@ li a.active {
 }
 
 .image-wrapper {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
+img {
+    width: 49%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+img:hover {
+    opacity: 0.3;
+}
 
 .form-wrapper{
     width: 50%;
